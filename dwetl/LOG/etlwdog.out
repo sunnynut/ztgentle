@@ -1,5 +1,0 @@
-Only one instance of etlwdog.pl allow to run, program terminated!
-Only one instance of etlwdog.pl allow to run, program terminated!
-Bad arg length for Socket::pack_sockaddr_in, length is 0, should be 4 at /usr/lib64/perl5/Socket.pm line 386.
-Bad arg length for Socket::pack_sockaddr_in, length is 0, should be 4 at /usr/lib64/perl5/Socket.pm line 386.
-nohup: ignoring input

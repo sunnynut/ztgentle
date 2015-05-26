@@ -1,7 +1,0 @@
-2015-04-29 10:01:01
-
-	select ETL_System,etl_job,ETL_Server,RunningScript,Last_StartTime,Last_EndTime,Last_TXDate as standard_time,Last_JobStatus,main_man,Mobile,concat(main_man,' : Your Job -',etl_job,' Running-More Than-2hour') as question
-	from etl_job o1
-	left join  etl_user o2 on o1.main_man=o2.UserName
-	where Enable=1 and Last_JobStatus='Running' and sysdate()>date_add(Last_StartTime,interval 2 hour) and etl_job<>'WARELESS_USER_MAIN' 
-	

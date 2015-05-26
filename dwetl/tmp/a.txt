@@ -1,1 +1,0 @@
-g_cookie	q_cookie	req_time	req_method	req_uri	remote_addr	status	refer	ua	user_ip	qn1_cookie	qn5_cookie	qn6_cookie	user_loc	ua_ver	dt	tag
