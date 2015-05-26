@@ -1,0 +1,37 @@
+union all
+
+select 
+p1.team_id as team_id , 
+'total' as platform_type, 
+sum(p1.detail_pv_cum) - sum(coalesce( p7.detail_pv_cum , 0 )) as detail_pv_w , 
+sum(p1.pay_room_night_cum)  - sum(coalesce( p7.pay_room_night_cum , 0 ) ) as pay_room_night_w, 
+sum( p1.refund_room_night_cum ) - sum( coalesce( p7.refund_room_night_cum , 0 ) ) as refund_room_night_w,  
+sum( p1.net_room_night_cum ) - sum( coalesce( p7.net_room_night_cum , 0 ) )  as net_room_night_w, 
+sum( p1.voucher_room_night_cum )  - sum( coalesce( p7.voucher_room_night_cum , 0 ) ) as voucher_room_night_w ,
+sum( p1.detail_pv_cum ) - sum( coalesce( p30.detail_pv_cum , 0 ) ) as detail_pv_m, 
+sum( p1.pay_room_night_cum)  - sum( coalesce( p30.pay_room_night_cum , 0 ) ) as pay_room_night_m, 
+sum( p1.refund_room_night_cum )  - sum( coalesce( p30.refund_room_night_cum , 0 ) ) as refund_room_night_m,  
+sum( p1.net_room_night_cum )  - sum( coalesce( p30.net_room_night_cum , 0 ) ) as net_room_night_m, 
+sum( p1.voucher_room_night_cum )  - sum( coalesce( p30.voucher_room_night_cum , 0 ) ) as voucher_room_night_m,
+max(p1.city_code) , 
+max(p1.city_name)
+from 
+(
+select tsc.team_id , tsc.platform_type ,  tsc.detail_pv_cum, tsc.pay_room_night_cum , tsc.refund_room_night_cum ,  
+tsc.net_room_night_cum , tsc.voucher_room_night_cum, dc.city_code , dc.city_name
+from dwr.dwr_team_stat_cumulative_di tsc
+join dwd.dwd_com_team_city_rel_da  h on h.team_id = tsc.team_id
+join dim.dim_city dc on dc.city_code = h.city_code
+where tsc.dt='""" + data_dt + """' and h.dt='""" + data_dt + """' and dc.dt='""" + data_dt + """'  
+)p1
+full outer join 
+(
+select * 
+from dwr.dwr_team_stat_cumulative_di where dt='""" + pre7day + """'
+)p7 on p1.team_id = p7.team_id and p1.platform_type=p7.platform_type
+full outer join 
+(
+select * 
+from dwr.dwr_team_stat_cumulative_di where dt='""" + pre30day + """'
+)p30 on p7.team_id = p30.team_id and p7.platform_type=p30.platform_type
+group by p1.team_id

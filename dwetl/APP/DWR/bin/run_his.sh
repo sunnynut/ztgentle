@@ -1,0 +1,9 @@
+python /home/q/dwetl/APP/DWR/bin/dwr_wireless_hotel_new_user_di.py 2015-01-02
+python /home/q/dwetl/APP/DWR/bin/dwr_wireless_hotel_new_user_di.py 2015-01-26
+python /home/q/dwetl/APP/DWR/bin/dwr_wireless_hotel_new_user_di.py 2015-01-29
+python /home/q/dwetl/APP/DWR/bin/dwr_wireless_hotel_new_user_di.py 2015-02-01
+python /home/q/dwetl/APP/DWR/bin/dwr_wireless_hotel_new_user_di.py 2015-02-17
+python /home/q/dwetl/APP/DWR/bin/dwr_wireless_hotel_new_user_di.py 2015-03-13
+python /home/q/dwetl/APP/DWR/bin/dwr_wireless_hotel_new_user_di.py 2015-03-29
+python /home/q/dwetl/APP/DWR/bin/dwr_wireless_hotel_new_user_di.py 2015-03-30
+python /home/q/dwetl/APP/DWR/bin/dwr_wireless_hotel_new_user_di.py 2015-03-31

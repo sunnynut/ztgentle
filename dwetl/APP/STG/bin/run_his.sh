@@ -1,0 +1,17 @@
+python stg_qunar_group_team_room_night_da.py 2014-08-23
+python stg_qunar_group_team_room_night_da.py 2014-08-24
+python stg_qunar_group_team_room_night_da.py 2014-08-25
+python stg_qunar_group_team_room_night_da.py 2014-08-26
+python stg_qunar_group_team_room_night_da.py 2014-08-27
+python stg_qunar_group_team_room_night_da.py 2014-08-28
+python stg_qunar_group_team_room_night_da.py 2014-08-29
+python stg_qunar_group_team_room_night_da.py 2014-08-30
+python stg_qunar_group_team_room_night_da.py 2014-08-31
+python stg_qunar_group_team_room_night_da.py 2014-09-17
+python stg_qunar_group_team_room_night_da.py 2014-09-18
+python stg_qunar_group_team_room_night_da.py 2014-09-19
+python stg_qunar_group_team_room_night_da.py 2014-09-20
+python stg_qunar_group_team_room_night_da.py 2014-09-21
+python stg_qunar_group_team_room_night_da.py 2014-09-22
+python stg_qunar_group_team_room_night_da.py 2014-09-23
+python stg_qunar_group_team_room_night_da.py 2014-09-24

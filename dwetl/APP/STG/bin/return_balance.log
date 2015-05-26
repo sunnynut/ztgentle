@@ -1,0 +1,352 @@
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+
+2015-02-08
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+
+2015-02-08
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+
+2015-02-08
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+
+2015-02-08
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+
+2015-02-08
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+
+2015-02-08
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+
+2015-02-08
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-09
+
+
+2015-02-08
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-10
+
+
+2015-02-09
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+export PGPASSWORD=dc1d53fe-04ec-450d-a079-5034b81644b6&&/usr/bin/psql -h l-tuandb6.des.cn8.qunar.com -U des_data -d des_trade -p 5432 -c "copy (select * from public.return_balance) to stdout DELIMITER E'\001'">/home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+export PGPASSWORD=1adff040-bdbb-4bc0-b9ea-c810af1a7a77&& /usr/bin/psql -h l-tuandb3.des.cn8.qunar.com -U des_report -d qunar_group -p 5432 -c " copy public.return_balance from STDIN DELIMITER as E'\001' NULL as '\N'"</home/q/hive_tmp/loader/public.return_balance2015-02-11
+
+
+2015-02-10
+2015-02-10
+2015-02-10
+2015-02-10
+2015-02-10
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-11
+2015-02-12
+2015-02-12
+2015-02-12
+2015-02-12
+2015-02-12
+2015-02-12
+2015-02-12
+2015-02-12
+2015-02-12
+2015-02-12
+2015-02-12
+2015-02-12

@@ -1,0 +1,3 @@
+Total number of applications (application-types: [] and states: [SUBMITTED, ACCEPTED, RUNNING]):1
+                Application-Id	    Application-Name	    Application-Type	      User	     Queue	             State	       Final-State	       Progress	                       Tracking-URL
+application_1390818045803_37642	SELECT a.cookie_id,a.uid,b.uid  FROM de...10(Stage-1)	           MAPREDUCE	 pcsmaster	 pcsmaster	           RUNNING	         UNDEFINED	          5.25%	http://64-187.bjyz.dajie-inc.com:54342
